@@ -32,23 +32,22 @@ body{
 .header-top p{
 	color: #000000;
 	font-size: 18px;
-	font-weight: 400;
+	font-style: normal;
+	font-weight: 300;
 	margin:25px 0;
 	
 }
 .header-btn{
 	overflow: hidden;
 	margin-top:40px;
-
-	
 }
 .header-btn .download{
+	display: inline;
 	float: left;
 	margin:0;
 	padding: 0;
-	
 }
-.download .button{
+.d-btn .button{
 	color:#FFFFFF;
 	text-transform: capitalize;
 	font-size: 18px;
@@ -61,7 +60,7 @@ body{
 	border: 1px solid#3399ff;
 	transition-duration: .4s;
 }
-.download:hover .button{
+.d-btn:hover .button{
 	background: none;
 	border: 1px solid#3399ff;
 	color:#3399ff;
@@ -72,6 +71,8 @@ body{
 	margin-top: 15px;
 }
 .header-btn .buy{
+	float: right;
+	display: inline;
 	margin:0;
 	padding: 0;
 }
